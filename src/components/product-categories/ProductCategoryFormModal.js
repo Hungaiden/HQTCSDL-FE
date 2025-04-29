@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { FaTimes } from "react-icons/fa";
 import "../../styles/components/modal.scss";
+import "../../styles/components/categoryForm.scss";
 
 const ProductCategoryFormModal = ({ category, onSave, onClose }) => {
   const [formData, setFormData] = useState({
